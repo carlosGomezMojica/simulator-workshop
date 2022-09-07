@@ -31,9 +31,6 @@ export const Main = () => {
           auxTask0 = firtsJobInQueue.task;
         }
       }
-      console.log(
-        firtsJobInQueue?.workPosition + " " + simulator.works.works.length
-      );
       if (
         firtsJobInQueue != undefined &&
         firtsJobInQueue.workPosition != simulator.works.works.length - 1
