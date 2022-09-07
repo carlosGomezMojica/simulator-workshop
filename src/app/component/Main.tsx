@@ -136,9 +136,7 @@ export const Main = () => {
   };
 
   const updateClock = (time: number) => {
-    console.log(time);
     setClock(time);
-    console.log(clock);
   };
 
   useEffect(()=>{
